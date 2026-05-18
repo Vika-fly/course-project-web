@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Часовой мастер — ремонт и кастомизация часов</title>
+  <meta name="description" content="Экспертный ремонт и кастомизация часов. Диагностика за 15 минут, гарантия 12 месяцев, оригинальные комплектующие. Онлайн-консультация.">
+  <!-- Preconnect for Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Playfair Display + Inter -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- Demo analytics (Yandex Metrica stub) -->
+  <script>
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0];
+    k.async=1;k.src=r;a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+    ym(99999999, "init", {clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true});
+  </script>
+  <noscript><div><img src="https://mc.yandex.ru/watch/99999999" style="position:absolute; left:-9999px;" alt=""></div></noscript>
+</head>
+<body>
+
+  <!-- STICKY HEADER with CSS-only burger -->
+  <header class="header">
+    <div class="container header__container">
+      <div class="logo">
+        <span class="logo__icon">⌚</span>
+        <div>
+          <h1 class="logo__text">Часовой мастер</h1>
+          <span class="logo__slogan">Ремонт и кастомизация премиум-класса</span>
+        </div>
+      </div>
+      <input type="checkbox" id="burger-toggle" class="burger-toggle">
+      <label for="burger-toggle" class="burger" aria-label="Открыть меню">
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+      </label>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li><a href="#about" class="nav__link">О нас</a></li>
+          <li><a href="#catalog" class="nav__link">Каталог</a></li>
+          <li><a href="#services" class="nav__link">Услуги</a></li>
+          <li><a href="#gallery" class="nav__link">Работы</a></li>
+          <li><a href="#contacts" class="nav__link">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO секция -->
+    <section class="hero">
+      <div class="container hero__container">
+        <div class="hero__content">
+          <span class="hero__badge">Экспертный сервис с 2005 года</span>
+          <h1 class="hero__title">Ремонт и кастомизация<br>часов с душой механика</h1>
+          <p class="hero__desc">Диагностика за 15 минут, 12 месяцев гарантии, оригинальные комплектующие. Доверьте свои часы сертифицированным мастерам.</p>
+          <a href="#consultation" class="btn btn--primary">Записаться на консультацию →</a>
+        </div>
+        <div class="hero__visual">
+          <div class="hero__visual">
+	  <img src="images/лого-1.jpg" alt="Часовой механизм" class="hero__image">
+	  </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- УТП + преимущества (о продукте) -->
+    <section id="about" class="section utp">
+      <div class="container">
+        <div class="utp__grid">
+          <div class="utp__text">
+            <h2 class="section-title">Часовой мастер — точность и традиции</h2>
+            <p>Мы объединяем экспертную диагностику, редкие механизмы и безупречный сервис. Работаем с коллекционными моделями, премиум-брендами и smart-часами. Каждый ремонт — это диалог с механизмом.</p>
+            <ul class="utp__list">
+              <li>⚡ Экспертная диагностика за 15 минут</li>
+              <li>🔧 Гарантия 12 месяцев на все виды работ</li>
+              <li>📜 Оригинальные комплектующие и запчасти</li>
+              <li>🎓 Сертифицированные мастера-часовщики</li>
+              <li>🏆 Прозрачный прайс и сроки</li>
+            </ul>
+          </div>
+          <div class="utp__stats">
+            <div class="stat-card">
+              <span class="stat-number">1500+</span>
+              <span class="stat-label">отремонтировано часов</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">98%</span>
+              <span class="stat-label">клиентов рекомендуют</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">15 мин</span>
+              <span class="stat-label">среднее время диагностики</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Описание мастера -->
+<section class="section master">
+  <div class="container master__container">
+    <div class="master__image">
+      <img src="images/фото мастера.jpg" alt="Мастер Алексей Гордеев" class="master__photo">
+    </div>
+    <div class="master__info">
+      <h2 class="section-title">Алексей Гордеев — главный часовщик</h2>
+      <p>Член гильдии часовщиков России, стаж более 22 лет. Специализируется на механизмах Patek Philippe, Rolex, Omega и сложных хронографах. Лично контролирует каждый этап реставрации и кастомизации.</p>
+      <p>«Часы — это продолжение человека. Я возвращаю им точность и характер».</p>
+      <div class="master__badges">
+        <span>Сертификат WOSTEP</span>
+        <span>Член AHCI</span>
+        <span>Эксперт-оценщик</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- КАТАЛОГ с фильтрами (CSS-only визуальная имитация) -->
+    <section id="catalog" class="section catalog">
+      <div class="container">
+        <h2 class="section-title">Каталог часов</h2>
+        <div class="filter-bar">
+          <div class="filter-group">
+            <label>Бренд</label>
+            <select class="filter-select">
+              <option>Все бренды</option><option>Rolex</option><option>Omega</option><option>Casio</option><option>Apple</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label>Тип механизма</label>
+            <select class="filter-select">
+              <option>Любой</option><option>Механические</option><option>Кварцевые</option><option>Smart</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label>Цена</label>
+            <select class="filter-select">
+              <option>Все</option><option>до 30 000₽</option><option>30 000–100 000₽</option><option>от 100 000₽</option>
+            </select>
+          </div>
+        </div>
+        <div class="catalog__grid">
+          <div class="product-card"><img src="images/Rolex Submariner.webp" alt="Rolex Submariner" loading="lazy"><h3>Rolex Submariner</h3><p class="price">850 000₽</p><button class="btn-outline"><a href="#consultation" class="btn btn--primary">Купить →</a></button></div>
+          <div class="product-card"><img src="images/Omega speedmaster.jpg" alt="Omega Speedmaster"><h3>Omega Speedmaster</h3><p class="price">620 000₽</p><button class="btn-outline"><a href="#consultation" class="btn btn--primary">Купить →</a></button></div>
+          <div class="product-card"><img src="images/Casio G-shock.webp" alt="Casio G-Shock"><h3>Casio G-Shock</h3><p class="price">24 900₽</p><button class="btn-outline"><a href="#consultation" class="btn btn--primary">Купить →</a></button></div>
+          <div class="product-card"><img src="images/Apple watch ultra.webp" alt="Apple Watch Ultra"><h3>Apple Watch Ultra</h3><p class="price">79 990₽</p><button class="btn-outline"><a href="#consultation" class="btn btn--primary">Купить →</a></button></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Основные услуги (Flexbox) -->
+    <section id="services" class="section services">
+      <div class="container">
+        <h2 class="section-title">Ключевые услуги</h2>
+        <div class="services__flex">
+          <div class="service-card"><div class="service-icon">🔧</div><h3>Диагностика</h3><p>15 минут, точный вердикт и смета</p></div>
+          <div class="service-card"><div class="service-icon">⚙️</div><h3>Ремонт механизмов</h3><p>Кварцевые, автоматические, хронографы</p></div>
+          <div class="service-card"><div class="service-icon">✨</div><h3>Полировка / реставрация</h3><p>Восстановление корпуса и стекла</p></div>
+          <div class="service-card"><div class="service-icon">⌚</div><h3>Кастомизация</h3><p>Индивидуальный дизайн, гравировка, циферблаты</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Схема работы -->
+    <section class="section workflow">
+      <div class="container">
+        <h2 class="section-title">Как мы работаем</h2>
+        <div class="workflow__steps">
+          <div class="step"><span class="step-num">1</span><h3>Онлайн-заявка</h3><p>Оставьте заявку или позвоните</p></div>
+          <div class="step"><span class="step-num">2</span><h3>Диагностика</h3><p>15 мин, фотоотчёт, согласование</p></div>
+          <div class="step"><span class="step-num">3</span><h3>Ремонт / кастомизация</h3><p>Оригинальные детали, контроль качества</p></div>
+          <div class="step"><span class="step-num">4</span><h3>Выдача с гарантией</h3><p>12 месяцев + подарок</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Когда нужен ремонт -->
+    <section class="section need-repair">
+      <div class="container">
+        <h2 class="section-title">Когда срочно нужен ремонт?</h2>
+        <div class="need-grid">
+          <div class="need-item">⏱️ Часы отстают или спешат</div>
+          <div class="need-item">🔋 Сел аккумулятор / батарейка</div>
+          <div class="need-item">💧 Попадание влаги под стекло</div>
+          <div class="need-item">🧲 Сильное магнитное поле</div>
+          <div class="need-item">💥 Удар, трещина на стекле</div>
+          <div class="need-item">🔄 Заедание заводной головки</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Галерея работ (CSS Grid) -->
+    <section id="gallery" class="section gallery">
+      <div class="container">
+        <h2 class="section-title">Примеры наших работ</h2>
+        <div class="gallery__grid">
+          <figure><img src="images/реставрация.webp" alt="Реставрация Rolex"><figcaption>Реставрация Rolex Datejust</figcaption></figure>
+          <figure><img src="images/замена механизма.webp" alt="Замена механизма"><figcaption>Замена механизма Omega</figcaption></figure>
+          <figure><img src="images/полировка.webp" alt="Полировка корпуса"><figcaption>Полировка корпуса IWC</figcaption></figure>
+          <figure><img src="images/кастомизация.jpg" alt="Кастомизация циферблата"><figcaption>Кастом циферблата Seiko</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Подходящие часы по знаку зодиака (таблица) -->
+    <section class="section zodiac">
+      <div class="container">
+        <h2 class="section-title">Часы по знаку зодиака</h2>
+        <div class="table-wrapper">
+          <table class="zodiac-table">
+            <thead><tr><th>Знак зодиака</th><th>Рекомендуемые модели</th><th>Стиль механизма</th></tr></thead>
+            <tbody>
+              <tr><td>♈ Овен</td><td>Omega Constellation, Rolex Daytona</td><td>Спортивные, агрессивные</td></tr>
+              <tr><td>♉ Телец</td><td>Audemars Piguet Royal Oak, Patek Philippe Calatrava</td><td>Элегантные, роскошные</td></tr>
+              <tr><td>♊ Близнецы</td><td>Jaeger-LeCoultre Reverso, Cartier Santos</td><td>Универсальные, трансформеры</td></tr>
+              <tr><td>♋ Рак</td><td>Cartier Tank, Vacheron Constantin Patrimony</td><td>Сентиментальные, винтажные</td></tr>
+              <tr><td>♌ Лев</td><td>Piaget Altiplano, Audemars Piguet Royal Oak</td><td>Статусные, дерзкие</td></tr>
+              <tr><td>♍ Дева</td><td>Grand Seiko Elegance, Rolex</td><td>Минималистичные, строгие</td></tr>
+	      <tr><td>♎ Весы</td><td>Breguet Classique Tourbillon, Cartier Tank</td><td>Изысканные, гармоничные</td></tr>
+              <tr><td>♏ Скорпион</td><td>Hublot Big Bang Unico, Omega Seamaster</td><td>Загадочные, скелетонированные</td></tr>
+              <tr><td>♐ Стрелец</td><td>Omega Seamaster Planet Ocean</td><td>Приключенческие, GMT‑туристические</td></tr>
+              <tr><td>♑ Козерог</td><td>A. Lange & Söhne Lange 1, Cartier Tank</td><td>Классические, деловые</td></tr>
+              <tr><td>♒ Водолей</td><td>Hublot, Apple Watch</td><td>Инновационные, футуристичные</td></tr>
+              <tr><td>♓ Рыбы</td><td>Blancpain Fifty Fathoms, Van Cleef & Arpels (лунные фазы)</td><td>Артистичные, морские</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="zodiac-note">* Индивидуальная консультация для выбора идеальной пары</p>
+      </div>
+    </section>
+
+    <!-- Бренды с которыми работаем -->
+    <section class="section brands">
+      <div class="container">
+        <h2 class="section-title">Доверие мировых брендов</h2>
+        <div class="brands__marquee">
+          <span>Rolex</span><span>Omega</span><span>Patek Philippe</span><span>Cartier</span><span>Apple</span><span>Seiko</span><span>Casio</span><span>IWC</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Кастомизация часов (галерея) -->
+    <section class="section custom-gallery">
+      <div class="container">
+        <h2 class="section-title">Кастомизация — уникальный стиль</h2>
+        <div class="custom__grid">
+          <div class="custom-card"><img src="images/гравировка.png" alt="Гравировка корпуса"><p>Гравировка корпуса</p></div>
+ 	  <div class="custom-card"><img src="images/скелетон.jpg" alt="Скелетон"><p>Открытый механизм</p></div>
+ 	  <div class="custom-card"><img src="images/позолота.jpg" alt="Позолота"><p>Напыление золотом</p></div>
+ 	  <div class="custom-card"><img src="images/кастом.jpg" alt="Индивидуальный циферблат"><p>Уникальный циферблат</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Блог / Гайды по уходу -->
+    <section class="section care-guides">
+      <div class="container">
+        <h2 class="section-title">Гайды и уход за часами</h2>
+        <div class="guides__flex">
+          <article class="guide-card"><h3>Как продлить жизнь механических часов</h3><p>Чтобы механические часы вам служили всю жизнь...</p><a href="https://www.grand-seiko.com/instructions/html/GS_9S_ru/AGFISYbhbernwd" class="read-more">Читать →</a></article>
+          <article class="guide-card"><h3>Что лучше: самостоятельная или профессиональная замена батарейки?</h3><p>Наручные часы — это стильно и удобно. Но что делать, если в них села батарейка...</p><a href="https://watch-zone.ru/blog/detail/chto-luchshe-samostoyatelnaya-ili-professionalnaya-zamena-batareyki-v-chasakh/" class="read-more">Читать →</a></article>
+          <article class="guide-card"><h3>Водозащита: что означают ATM и BAR</h3><p>Механизм часов – сложная и хрупкая система, а попадание воды губительно для часов...</p><a href="https://www.ankerwatch.ru/news/pokazatel-vodozashchity-v-chasakh/" class="read-more">Читать →</a></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Стоимость услуг (таблица) -->
+    <section class="section pricing">
+      <div class="container">
+        <h2 class="section-title">Стоимость услуг</h2>
+        <div class="table-wrapper">
+          <table class="pricing-table">
+            <thead><tr><th>Услуга</th><th>Цена (от ₽)</th><th>Срок</th></tr></thead>
+            <tbody>
+              <tr><td>Диагностика часов</td><td>бесплатно*</td><td>15 мин</td></tr>
+              <tr><td>Замена батарейки</td><td>1 500</td><td>30 мин</td></tr>
+              <tr><td>Ремонт кварцевого механизма</td><td>3 500</td><td>2-3 дня</td></tr>
+              <tr><td>Ремонт автоматического механизма</td><td>7 500</td><td>5-7 дней</td></tr>
+              <tr><td>Полировка / удаление царапин</td><td>2 900</td><td>1-2 дня</td></tr>
+              <tr><td>Кастомизация (гравировка, циферблат)</td><td>от 5 000</td><td>от 5 дней</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="price-note">* бесплатная диагностика при последующем ремонте</p>
+      </div>
+    </section>
+
+    <!-- Форма консультации специалиста -->
+    <section id="consultation" class="section form-section">
+      <div class="container form-container">
+        <h2 class="section-title">Получите онлайн‑консультацию</h2>
+        <p>Оставьте заявку — мастер свяжется с вами в течение 30 минут и ответит на все вопросы.</p>
+        <form class="lead-form" action="https://formsubmit.co/demo@watchmaster.ru" method="POST">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_next" value="https://watchmaster.ru/thanks.html">
+          <div class="form-group">
+            <label for="name">Ваше имя *</label>
+            <input type="text" id="name" name="name" required placeholder="Алексей">
+          </div>
+          <div class="form-group">
+            <label for="phone">Телефон или Telegram *</label>
+            <input type="tel" id="phone" name="phone" required placeholder="+7 (___) ___-__-__">
+          </div>
+          <div class="form-group">
+            <label for="message">Модель часов / вопрос</label>
+            <textarea id="message" name="message" rows="3" placeholder="Опишите проблему или пожелание"></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">Отправить заявку →</button>
+          <p class="form-note">Нажимая на кнопку, вы соглашаетесь с обработкой данных. Мы на связи в WhatsApp и Telegram</p>
+        </form>
+        <div class="messenger-links">
+          <a href="#" class="messenger-btn">WhatsApp</a>
+          <a href="#" class="messenger-btn">Telegram</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Контакты + интерактивная карта -->
+    <section id="contacts" class="section contacts">
+      <div class="container contacts__grid">
+        <div class="contacts__info">
+          <h2 class="section-title">Контакты</h2>
+          <address>
+            <p>📍 Смоленск, ул. 25 Сентября, ТЦ «Макси»</p>
+            <p>📞 +7 (495) 999-00-11</p>
+            <p>✉️ info@watchmaster.ru</p>
+            <p>⏰ Ежедневно 10:00 – 20:00</p>
+          </address>
+          <div class="social-links">
+            <span>Instagram</span> <span>VK</span> <span>YouTube</span>
+          </div>
+        </div>
+        <div class="contacts__map">
+          <!-- Интерактивная карта iframe (Яндекс) -->
+          <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A7f1e2d3c4b5a6f7e8d9c0a1b2c3d4e5f6g7h8i9j0k&source=constructor" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__content">
+      <div class="footer__col">
+        <span class="logo__text">Часовой мастер</span>
+        <p>Экспертный ремонт и кастомизация с 2005 года</p>
+      </div>
+      <div class="footer__col">
+        <h4>Навигация</h4>
+        <ul><li><a href="#about">О нас</a></li><li><a href="#catalog">Каталог</a></li><li><a href="#services">Услуги</a></li><li><a href="#contacts">Контакты</a></li></ul>
+      </div>
+      <div class="footer__col">
+        <h4>Соцсети</h4>
+        <div class="footer-social">Telegram | VK | WhatsApp</div>
+      </div>
+    </div>
+    <div class="footer__bottom">© 2026 Часовой мастер — премиум сервис. Все права защищены.</div>
+  </footer>
+</body>
+</html>
